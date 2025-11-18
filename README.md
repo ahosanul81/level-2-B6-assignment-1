@@ -11,11 +11,10 @@
 # Example:
 
 `interface User {
-id: number;
-username: string;
-email: string;
-}`
-
+    id: number;
+    username: string;
+    email: string;
+}
+`
 UserKeys এখন একটি ইউনিয়ন টাইপ: "id" | "username" | "email"
-
-# `type UserKeys = keyof User;`
+`type UserKeys = keyof User;`
