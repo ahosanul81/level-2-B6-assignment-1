@@ -9,11 +9,16 @@ Ans: keyof keyword-টি TypeScript-এ একটি বিদ্যমান �
 
 # Example:
 
-`interface User {
+```TS
+interface User {
     id: number;
     username: string;
     email: string;
 }
-`
+```
+
 UserKeys এখন একটি ইউনিয়ন টাইপ: "id" | "username" | "email"
-`type UserKeys = keyof User;`
+
+```TS
+type UserKeys = keyof User;
+```
